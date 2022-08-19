@@ -36,6 +36,43 @@ git commit -m "<message>"  -->  commits all the changes to git
 ```
 git push origin mian --> to send all the changes to main branch
 ```
+to check remote url
+```
+git remote -v
+```
+
+## Deployments:
+
+To setup CI/CD pipeline in Heroku we need below information
+
+1. HEROKU_EMAIL
+2. HEROKU_API_KEY 4560ec22-8828-4ee6-a379-c05a2b1c2290
+3. HEROKU_APP_NAME hemanthmlproject 
+
+### Build Docker image:
+```
+docker build -t <image_name>:<tagname> .
+```
+> Note: Image name for docker must be lowercase
+
+To list Docker images
+```
+docker images
+```
+To run docker image
+```
+docker run -p 5000:5000 -e PORT=5000 <image id>
+```
+To check running containers in docker
+```
+docker ps
+```
+To stop docker container
+```
+docker stop <conatiner_id>
+```
+
+
 
 
 
