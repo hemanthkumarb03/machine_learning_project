@@ -34,7 +34,7 @@ git log  --> this command gives us list of previous commits
 git commit -m "<message>"  -->  commits all the changes to git
 ```
 ```
-git push origin mian --> to send all the changes to main branch
+git push origin main --> to send all the changes to main branch
 ```
 
 
