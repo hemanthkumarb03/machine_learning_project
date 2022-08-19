@@ -18,7 +18,6 @@ def get_requirements_list()->List[str]:
     with open(REQUIREMENTS_FILE_NAME) as f:
         return f.readlines()
 
-
 #Declaring Variables for setup
 PROJECT_NAME = 'housing-predictor'
 VERSION = "0.0.1"
