@@ -71,9 +71,7 @@ To stop docker container
 ```
 docker stop <conatiner_id>
 ```
-
-
-
-
-
-
+## Python setup
+```
+Python setup.py install
+```
