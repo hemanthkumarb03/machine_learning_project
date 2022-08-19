@@ -46,7 +46,7 @@ git remote -v
 To setup CI/CD pipeline in Heroku we need below information
 
 1. HEROKU_EMAIL
-2. HEROKU_API_KEY 4560ec22-8828-4ee6-a379-c05a2b1c2290
+2. HEROKU_API_KEY 
 3. HEROKU_APP_NAME hemanthmlproject 
 
 ### Build Docker image:
