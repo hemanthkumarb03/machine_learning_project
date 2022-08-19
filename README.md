@@ -20,5 +20,23 @@ To install all imports from requirements.txt file
 ```
 pip install -r requirements.txt
 ```
+## Git Commands
+```
+git status --> this command tells us all the changes that are not staged from local
+```
+```
+git add. --> this commands adds files to git
+```
+```
+git log  --> this command gives us list of previous commits
+```
+```
+git commit -m "<message>"  -->  commits all the changes to git
+```
+```
+git push origin mian --> to send all the changes to main branch
+```
+
+
 
 
