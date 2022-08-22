@@ -75,3 +75,7 @@ docker stop <conatiner_id>
 ```
 python setup.py install
 ```
+Install ipykernerl
+```
+pip install ipykernel
+```
